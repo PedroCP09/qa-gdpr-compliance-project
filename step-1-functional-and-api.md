@@ -533,6 +533,9 @@ Comportamento consistente entre PATCH e DELETE
 Referente à legislação: Art. 19 da RGPD
 
 ----
+## 📌 Evidências do Processo — JIRA Board
+[Meu Jira] (https://pedroacpaiva09-1765501761004.atlassian.net/jira/software/projects/KAN/list?filter=createdDate+%3E%3D+-1w)
+
 
 Com a conclusão deste Step 1, estabelecemos a base técnica e documental necessária para validar a conformidade do sistema com os princípios essenciais do RGPD. 
 A partir daqui, o projeto segue com maior clareza, segurança e consistência para as próximas etapas de evolução e maturidade em privacidade de dados.
