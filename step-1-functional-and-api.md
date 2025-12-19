@@ -8,7 +8,8 @@ Nesta primeira etapa do projeto serão apresentados os tipos de testes genérico
 A proposta deste Step 1 é transformar exigências legais do RGPD em bases de testes práticas, estruturadas e aplicáveis, permitindo avaliar funcionalidades de consentimento, transparência, retificação e eliminação de dados, bem como o comportamento esperado em endpoints de APIs responsáveis pelo processamento dessas operações.
 
 ### Base de testes:
-RGPD - REGULAMENTO GERAL SOBRE PROTEÇÃO DE DADOS  [RGPD] (https://diariodarepublica.pt/dr/detalhe/lei/58-2019-123815982)
+RGPD - REGULAMENTO GERAL SOBRE PROTEÇÃO DE DADOS [Lei n.º 58/2019 – Diário da República](https://diariodarepublica.pt/dr/detalhe/lei/58-2019-123815982)
+
 Art. 7 (consentimento); Art. 12 (transparência); Art. 15 (acesso); Art. 16 (retificação); Art. 17 (apagamento); Art. 19 (notificação a terceiros).
 
 ---
