@@ -21,9 +21,9 @@ NOME: O ato de consentimento deve ser evidente.
 OBJETIVO: O usuário deve observar uma tela ou texto destacado acerca do consentimento, separado de outros assuntos.  
 PRÉ-CONDIÇÕES: Usuário acede ao sistema pela primeira vez, sem conta vinculada e inicia à criação de conta.  
 PASSOS:  
-1. Acessar ao site/app;  
-2. Prosseguir a aba para criação de conta;  
-3. Avançar para o cadastro onde é solicitado o consentimento;  
+  1. Acessar ao site/app;  
+  2. Prosseguir a aba para criação de conta;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;
 RESULTADO ESPERADO: O sistema apresenta um texto de consentimento separado de outras informações.  
 REFERENTE À LEGISLAÇÃO: Art. 7º da RGPD  
 
@@ -34,11 +34,11 @@ NOME: Validar se o usuário consegue retirar o consentimento de forma tão simpl
 OBJETIVO: Verificar se o usuário consegue retirar o consentimento previamente dado para o tratamento de seus dados pessoais de maneira clara, acessível e sem obstáculos.  
 PRÉ-CONDIÇÕES: Usuário acessa o sistema com uma conta previamente criada e já possui consentimento ativo registrado na plataforma.  
 PASSOS:  
-1. Acessar o site/app;  
-2. Realizar login com conta válida;  
-3. Acessar a área destinada à gestão de privacidade ou consentimentos;  
-4. Selecionar a opção para retirar o consentimento;  
-5. Confirmar a retirada, caso o sistema apresente diálogo de confirmação.  
+  1. Acessar o site/app;  
+  2. Realizar login com conta válida;  
+  3. Acessar a área destinada à gestão de privacidade ou consentimentos;  
+  4. Selecionar a opção para retirar o consentimento;  
+  5. Confirmar a retirada, caso o sistema apresente diálogo de confirmação.  
 RESULTADO ESPERADO: O sistema deve permitir que o usuário retire seu consentimento de forma simples, clara e direta, sem exigir procedimentos excessivos, e deve refletir a retirada imediatamente na interface ou por mensagem informativa.  
 REFERENTE À LEGISLAÇÃO: Art. 7 da RGPD.
 
@@ -49,9 +49,9 @@ NOME: Validar se o texto de consentimento é apresentado de forma clara e separa
 OBJETIVO: Verificar se, durante o processo de criação de conta, o sistema apresenta ao usuário um texto de consentimento escrito de forma clara, simples e de fácil compreensão, garantindo que a informação esteja destacada e entendível antes do processamento de dados pessoais.  
 PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vinculada e inicia a criação de conta.  
 PASSOS:  
-1. Acessar ao site/app;  
-2. Prosseguir para criação de conta;  
-3. Avançar para o cadastro onde é solicitado o consentimento;  
+  1. Acessar ao site/app;  
+  2. Prosseguir para criação de conta;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;  
 RESULTADO ESPERADO: O sistema apresenta um texto de consentimento separado de outras informações, com linguagem clara e simples, e exige uma interação explícita do usuário.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD
 
@@ -62,9 +62,9 @@ NOME: Avaliar se a informação sobre o tratamento de dados é facilmente acess�
 OBJETIVO: Analisar se o usuário encontra de forma clara e rápida as informações relativas ao tratamento de seus dados pessoais.  
 PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vinculada.  
 PASSOS:  
-1. Acessar o site/app;  
-2. Prosseguir para criação de conta;  
-3. Avançar para o cadastro onde é solicitado o consentimento;  
+  1. Acessar o site/app;  
+  2. Prosseguir para criação de conta;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;  
 RESULTADO ESPERADO: O usuário deve localizar facilmente, sem navegação excessiva, a seção que apresenta informações sobre o tratamento de dados pessoais.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD
 
@@ -75,9 +75,9 @@ NOME: Validar se as informações sobre o tratamento de dados são disponibiliza
 OBJETIVO: Verificar se, ao solicitar informações sobre o tratamento dos seus dados pessoais através da interface, o usuário recebe essa informação de forma eletrônica, clara e facilmente consultável.  
 PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vinculada.  
 PASSOS:  
-1. Acessar o site/app;  
-2. Prosseguir para criação de conta;  
-3. Avançar para o cadastro onde é solicitado o consentimento;  
+  1. Acessar o site/app;  
+  2. Prosseguir para criação de conta;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;  
 RESULTADO ESPERADO: O sistema deve apresentar ao usuário as informações sobre o tratamento de dados pessoais em formato eletrónico de forma clara, acessível e compreensível, permitindo leitura direta e livre.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD  
 
@@ -88,9 +88,9 @@ NOME: Validar se o usuário consegue visualizar seus dados pessoais armazenados 
 OBJETIVO: Verificar se, ao aceder à área destinada ao titular, o usuário consegue visualizar de forma clara os seus dados pessoais armazenados pelo sistema.  
 PRÉ-CONDIÇÕES: Usuário acede ao sistema com uma conta previamente criada.  
 PASSOS:  
-1. Acessar ao site/app;  
-2. Realizar login com conta válida;  
-3. Acessar à área onde são exibidos os dados pessoais do usuário.  
+  1. Acessar ao site/app;  
+  2. Realizar login com conta válida;  
+  3. Acessar à área onde são exibidos os dados pessoais do usuário.  
 RESULTADO ESPERADO: O usuário deve visualizar, de forma clara e compreensível, os dados pessoais que lhe dizem respeito (ex.: nome, email, informações de perfil).  
 REFERENTE À LEGISLAÇÃO: Art. 15 da RGPD.
 
@@ -101,9 +101,9 @@ NOME: Validar se o usuário consegue visualizar informações complementares rel
 OBJETIVO: Analisar se o sistema disponibiliza ao usuário informações complementares sobre o tratamento dos seus dados.  
 PRÉ-CONDIÇÕES: Usuário acede ao sistema com uma conta previamente criada.  
 PASSOS:  
-1. Acessar ao site/app;  
-2. Realizar login com conta válida;  
-3. Acessar à seção dedicada às informações adicionais sobre o tratamento dos dados pessoais.  
+  1. Acessar ao site/app;  
+  2. Realizar login com conta válida;  
+  3. Acessar à seção dedicada às informações adicionais sobre o tratamento dos dados pessoais.  
 RESULTADO ESPERADO: O usuário deve visualizar claramente informações complementares relativas ao tratamento dos seus dados pessoais.  
 REFERENTE À LEGISLAÇÃO: Art. 15 da RGPD.
 
@@ -114,10 +114,10 @@ NOME: Validar se o usuário consegue retificar dados pessoais inexatos através 
 OBJETIVO: Verificar se o usuário consegue corrigir dados pessoais inexatos armazenados pelo sistema.  
 PRÉ-CONDIÇÕES: Conta criada contendo pelo menos um dado incorreto.  
 PASSOS:  
-1. Acessar ao site/app;  
-2. Realizar login;  
-3. Acessar edição dos dados pessoais;  
-4. Alterar o dado inexato.  
+  1. Acessar ao site/app;  
+  2. Realizar login;  
+  3. Acessar edição dos dados pessoais;  
+  4. Alterar o dado inexato.  
 RESULTADO ESPERADO: O sistema deve permitir a retificação corretamente.  
 REFERENTE À LEGISLAÇÃO: Art. 16 da RGPD.
 
@@ -128,10 +128,10 @@ NOME: Validar se o usuário consegue solicitar o apagamento de seus dados pessoa
 OBJETIVO: Verificar se o usuário consegue solicitar o apagamento de forma clara.  
 PRÉ-CONDIÇÕES: Conta criada.  
 PASSOS:  
-1. Acessar o site/app;  
-2. Login;  
-3. Área de gestão da conta;  
-4. Solicitar apagamento.  
+  1. Acessar o site/app;  
+  2. Login;  
+  3. Área de gestão da conta;  
+  4. Solicitar apagamento.  
 RESULTADO ESPERADO: Solicitação deve ser aceita e exibida claramente.  
 REFERENTE À LEGISLAÇÃO: Art. 17 da RGPD.
 
@@ -142,11 +142,11 @@ NOME: Validar se o sistema apresenta confirmação após solicitação de apagam
 OBJETIVO: Confirmar que o sistema informa o recebimento do pedido.  
 PRÉ-CONDIÇÕES: Solicitação de apagamento feita.  
 PASSOS:  
-1. Acessar;  
-2. Login;  
-3. Gestão da conta;  
-4. Solicitar apagamento;  
-5. Ver mensagem.  
+  1. Acessar;  
+  2. Login;  
+  3. Gestão da conta;  
+  4. Solicitar apagamento;  
+  5. Ver mensagem.  
 RESULTADO ESPERADO: Mensagem clara de confirmação.  
 REFERENTE À LEGISLAÇÃO: Art. 17 da RGPD.
 
@@ -157,9 +157,9 @@ NOME: Validar se o usuário consegue solicitar informações sobre os destinatá
 OBJETIVO: Confirmar transparência quanto ao compartilhamento.  
 PRÉ-CONDIÇÕES: Dados compartilhados anteriormente.  
 PASSOS:  
-1. Login;  
-2. Gestão de privacidade;  
-3. Solicitar destinatários.  
+  1. Login;  
+  2. Gestão de privacidade;  
+  3. Solicitar destinatários.  
 RESULTADO ESPERADO: Lista clara dos destinatários.  
 REFERENTE À LEGISLAÇÃO: Art. 19 da RGPD.
 
@@ -170,9 +170,9 @@ NOME: Validar se o sistema informa ao usuário que terceiros serão notificados 
 OBJETIVO: Confirmar notificação obrigatória prevista na lei.  
 PRÉ-CONDIÇÕES: Solicitação de retificação ou apagamento.  
 PASSOS:  
-1. Login;  
-2. Gestão da conta;  
-3. Solicitar retificação ou apagamento.  
+  1. Login;  
+  2. Gestão da conta;  
+  3. Solicitar retificação ou apagamento.  
 RESULTADO ESPERADO: Sistema informa que terceiros serão notificados.  
 REFERENTE À LEGISLAÇÃO: Art. 19 da RGPD.
 
