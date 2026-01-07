@@ -23,7 +23,8 @@ PRÉ-CONDIÇÕES: Usuário acede ao sistema pela primeira vez, sem conta vincula
 PASSOS:  
   1. Acessar ao site/app;  
   2. Prosseguir a aba para criação de conta;  
-  3. Avançar para o cadastro onde é solicitado o consentimento;
+  3. Avançar para o cadastro onde é solicitado o consentimento;      
+
 RESULTADO ESPERADO: O sistema apresenta um texto de consentimento separado de outras informações.  
 REFERENTE À LEGISLAÇÃO: Art. 7º da RGPD  
 
@@ -38,7 +39,8 @@ PASSOS:
   2. Realizar login com conta válida;  
   3. Acessar a área destinada à gestão de privacidade ou consentimentos;  
   4. Selecionar a opção para retirar o consentimento;  
-  5. Confirmar a retirada, caso o sistema apresente diálogo de confirmação.  
+  5. Confirmar a retirada, caso o sistema apresente diálogo de confirmação.     
+
 RESULTADO ESPERADO: O sistema deve permitir que o usuário retire seu consentimento de forma simples, clara e direta, sem exigir procedimentos excessivos, e deve refletir a retirada imediatamente na interface ou por mensagem informativa.  
 REFERENTE À LEGISLAÇÃO: Art. 7 da RGPD.
 
@@ -51,7 +53,8 @@ PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vincula
 PASSOS:  
   1. Acessar ao site/app;  
   2. Prosseguir para criação de conta;  
-  3. Avançar para o cadastro onde é solicitado o consentimento;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;      
+
 RESULTADO ESPERADO: O sistema apresenta um texto de consentimento separado de outras informações, com linguagem clara e simples, e exige uma interação explícita do usuário.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD
 
@@ -64,7 +67,8 @@ PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vincula
 PASSOS:  
   1. Acessar o site/app;  
   2. Prosseguir para criação de conta;  
-  3. Avançar para o cadastro onde é solicitado o consentimento;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;      
+
 RESULTADO ESPERADO: O usuário deve localizar facilmente, sem navegação excessiva, a seção que apresenta informações sobre o tratamento de dados pessoais.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD
 
@@ -77,7 +81,8 @@ PRÉ-CONDIÇÕES: Usuário acessa o sistema pela primeira vez, sem conta vincula
 PASSOS:  
   1. Acessar o site/app;  
   2. Prosseguir para criação de conta;  
-  3. Avançar para o cadastro onde é solicitado o consentimento;  
+  3. Avançar para o cadastro onde é solicitado o consentimento;      
+
 RESULTADO ESPERADO: O sistema deve apresentar ao usuário as informações sobre o tratamento de dados pessoais em formato eletrónico de forma clara, acessível e compreensível, permitindo leitura direta e livre.  
 REFERENTE À LEGISLAÇÃO: Art. 12 da RGPD  
 
@@ -91,7 +96,8 @@ PASSOS:
   1. Acessar ao site/app;  
   2. Realizar login com conta válida;  
   3. Acessar à área onde são exibidos os dados pessoais do usuário.  
-RESULTADO ESPERADO: O usuário deve visualizar, de forma clara e compreensível, os dados pessoais que lhe dizem respeito (ex.: nome, email, informações de perfil).  
+
+RESULTADO ESPERADO: O usuário deve visualizar, de forma clara e compreensível, os dados pessoais que lhe dizem respeito (ex.: nome, email, informações de perfil).     
 REFERENTE À LEGISLAÇÃO: Art. 15 da RGPD.
 
 ---
@@ -104,6 +110,7 @@ PASSOS:
   1. Acessar ao site/app;  
   2. Realizar login com conta válida;  
   3. Acessar à seção dedicada às informações adicionais sobre o tratamento dos dados pessoais.  
+
 RESULTADO ESPERADO: O usuário deve visualizar claramente informações complementares relativas ao tratamento dos seus dados pessoais.  
 REFERENTE À LEGISLAÇÃO: Art. 15 da RGPD.
 
@@ -118,6 +125,7 @@ PASSOS:
   2. Realizar login;  
   3. Acessar edição dos dados pessoais;  
   4. Alterar o dado inexato.  
+
 RESULTADO ESPERADO: O sistema deve permitir a retificação corretamente.  
 REFERENTE À LEGISLAÇÃO: Art. 16 da RGPD.
 
@@ -132,6 +140,7 @@ PASSOS:
   2. Login;  
   3. Área de gestão da conta;  
   4. Solicitar apagamento.  
+
 RESULTADO ESPERADO: Solicitação deve ser aceita e exibida claramente.  
 REFERENTE À LEGISLAÇÃO: Art. 17 da RGPD.
 
@@ -147,6 +156,7 @@ PASSOS:
   3. Gestão da conta;  
   4. Solicitar apagamento;  
   5. Ver mensagem.  
+
 RESULTADO ESPERADO: Mensagem clara de confirmação.  
 REFERENTE À LEGISLAÇÃO: Art. 17 da RGPD.
 
@@ -160,6 +170,7 @@ PASSOS:
   1. Login;  
   2. Gestão de privacidade;  
   3. Solicitar destinatários.  
+
 RESULTADO ESPERADO: Lista clara dos destinatários.  
 REFERENTE À LEGISLAÇÃO: Art. 19 da RGPD.
 
@@ -173,6 +184,7 @@ PASSOS:
   1. Login;  
   2. Gestão da conta;  
   3. Solicitar retificação ou apagamento.  
+
 RESULTADO ESPERADO: Sistema informa que terceiros serão notificados.  
 REFERENTE À LEGISLAÇÃO: Art. 19 da RGPD.
 
