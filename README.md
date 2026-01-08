@@ -4,16 +4,14 @@ Projeto de QA para validação ponta a ponta da conformidade com o RGPD: testes 
 # QA + RGPD Compliance Project  
 **Validação Técnica, Jurídica e Estruturada de Conformidade em Produtos Digitais**
 
-Este projeto demonstra como um profissional de QA pode validar, de ponta a ponta, a conformidade de um sistema com o RGPD (Regulamento Geral de Proteção de Dados), unindo:
+Este projeto demonstra como um profissional de QA pode validar, de ponta a ponta, 
+a conformidade de um sistema com o RGPD (Regulamento Geral de Proteção de Dados), 
+unindo análise regulatória, testes funcionais, validação de APIs, fluxo de dados, 
+segurança e automação.
 
-- engenharia de qualidade,
-- fluxo de dados,
-- análise regulatória,
-- segurança,
-- API,
-- automação.
-
-O objetivo é criar um framework replicável de **Quality Engineering orientada à privacidade**, capaz de analisar e testar um produto digital desde a interface até o nível de dados e segurança.
+A proposta do projeto é evoluir progressivamente da definição dos requisitos legais 
+até a execução técnica dos testes, evidenciando como exigências jurídicas podem ser 
+traduzidas em validações práticas aplicáveis a produtos digitais reais.
 
 ---
 
@@ -22,33 +20,45 @@ O objetivo é criar um framework replicável de **Quality Engineering orientada 
 O projeto está organizado em **cinco etapas progressivas**, cada uma aprofundando o nível técnico e jurídico da validação.
 
 ## **🔵 Step 1 — Testes Funcionais + API Básica (Completo)**
-Validação dos direitos do titular (Art. 7, 12, 15, 16, 17, 19) pela interface e pela API.
 
-Inclui:
-- 12 casos de teste funcionais
-- 10 casos de API
-- Mapeamento RGPD → Cenário → Evidência
+Esta etapa é dedicada à transformação direta dos artigos do RGPD 
+(Art. 7, 12, 15, 16, 17 e 19) em casos de teste estruturados.
+
+O foco do Step 1 é a definição clara e técnica de:
+- cenários de teste funcionais pela interface;
+- cenários de teste de API como especificação técnica;
+- mapeamento entre requisito legal → cenário → validação esperada.
+
+Nesta etapa, os testes são descritos de forma detalhada, mas ainda não executados, 
+servindo como base formal para a validação prática nos passos seguintes.
 
 📂 Pasta: `/step-1-functional-and-api`
 
 ---
 
 ## **🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API**
-Aprofundamento dos dados expostos pela API.
+
+Nesta etapa, os casos de teste de API definidos no Step 1 passam a ser 
+executados manualmente, com foco na validação real do fluxo de dados 
+e do comportamento dos endpoints.
 
 Inclui:
-- Classificação de dados pessoais
-- Mapa dos endpoints e fluxos
-- Matriz de minimização
-- Matriz RGPD ↔ API
-- Análise de riscos regulatórios
-- Base para Steps 3, 4 e 5
+- execução manual de testes de API (ex.: Postman ou ferramenta equivalente);
+- validação de autenticação, headers, status codes e payloads;
+- análise de exposição e minimização de dados pessoais;
+- mapeamento dos fluxos de dados entre endpoints;
+- registro de evidências e resultados;
+- identificação de falhas técnicas e riscos regulatórios.
+
+Esta etapa representa a transição do design de testes para a validação prática, 
+servindo de base para análises mais profundas nos Steps 3, 4 e 5.
 
 📂 Pasta: `/step-2-api-data-analysis`
 
 ---
 
 ## **🟡 Step 3 — Dados, Logs e Auditoria Técnica**
+
 Validação de consistência entre:
 
 **API → Banco de Dados → Logs**
@@ -76,6 +86,7 @@ Validação de:
 ---
 
 ## **🟢 Step 5 — Automação Essencial (Python + Pytest)**
+
 Automação dos cenários críticos:
 
 - API
