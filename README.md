@@ -125,4 +125,4 @@ O resultado final é um projeto **profissional, replicável e alinhado ao mercad
 ---
 
 # 👤 Autor
-Pedro — QA | Dados | Conformidade | RGPD  
+Pedro Augusto — QA | Dados | Conformidade | RGPD | Automação Python
