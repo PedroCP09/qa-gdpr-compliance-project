@@ -29,8 +29,8 @@ O foco do Step 1 é a definição clara e técnica de:
 - cenários de teste de API como especificação técnica;
 - mapeamento entre requisito legal → cenário → validação esperada.
 
-Nesta etapa, os testes são descritos de forma detalhada, mas ainda não executados, 
-servindo como base formal para a validação prática nos passos seguintes.
+Neste step, os testes são **definidos e documentados**, mas **não executados**.  
+A execução manual e via API faz parte do **Step 2**, onde serão geradas evidências reais.
 
 📂 Pasta: `/step-1-functional-and-api`
 
@@ -38,22 +38,34 @@ servindo como base formal para a validação prática nos passos seguintes.
 
 ## **🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API**
 
-Nesta etapa, os casos de teste de API definidos no Step 1 passam a ser 
-executados manualmente, com foco na validação real do fluxo de dados 
-e do comportamento dos endpoints.
+🟣 Step 2 — Análise Estrutural, Fluxo de Dados e Execução Prática dos Testes
+
+Este step aprofunda a validação técnica do sistema, combinando **análise estrutural da API** com a **execução prática dos testes definidos no Step 1**.
+
+O objetivo é validar não apenas o que foi planejado, mas como o sistema se comporta na prática ao tratar dados pessoais.
 
 Inclui:
-- execução manual de testes de API (ex.: Postman ou ferramenta equivalente);
-- validação de autenticação, headers, status codes e payloads;
-- análise de exposição e minimização de dados pessoais;
-- mapeamento dos fluxos de dados entre endpoints;
-- registro de evidências e resultados;
-- identificação de falhas técnicas e riscos regulatórios.
 
-Esta etapa representa a transição do design de testes para a validação prática, 
-servindo de base para análises mais profundas nos Steps 3, 4 e 5.
+🔹 Análise Estrutural e Fluxo de Dados
+- Classificação de dados pessoais expostos pela API
+- Mapeamento de endpoints e fluxos de dados
+- Matriz de minimização de dados
+- Matriz de correspondência RGPD ↔ API
+- Análise de riscos regulatórios
+
+🔹 Execução Prática dos Testes
+- Execução manual dos testes funcionais definidos no Step 1
+- Execução dos testes de API (GET, PATCH, DELETE)
+- Uso de ferramentas como:
+  - Bugasura (gestão e evidências de testes manuais)
+  - Postman (execução e validação de testes de API)
+- Registro de evidências (prints, respostas de API, status)
+- Análise de desvios entre comportamento esperado e real
+
+Este step consolida a transição de **planejamento → validação prática**, demonstrando capacidade analítica e aplicação técnica.
 
 📂 Pasta: `/step-2-api-data-analysis`
+          `/step-2-manual-execution.md
 
 ---
 
