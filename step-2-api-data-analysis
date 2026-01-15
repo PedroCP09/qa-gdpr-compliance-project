@@ -1,12 +1,12 @@
 ##**🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API**
 
-Nesta 1ª etapa do Step 2 o objetivo é aprofundar a análise dos dados pessoais que serão tratadados no nosso projeto.
+Nesta 1ª etapa do Step 2 o objetivo é aprofundar a análise dos dados pessoais que serão tratados no nosso projeto.
 Aqui serão divididas em 5 partes, quais sejam: 
 
 - Classificação de dados pessoais expostos pela API;                                               
 - Mapeamento de endpoints e fluxos de dados                                               
 - Matriz de minimização de dados                                                
-- Matriz de correspondência RHPD -> API                                               
+- Matriz de correspondência RGPD -> API                                               
 - Análise de riscos regulatórios
 
 A validação técnica foi estruturada de forma progressiva para garantir coerência entre requisitos legais, comportamento da API e avaliação de risco.
