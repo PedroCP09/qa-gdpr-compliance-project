@@ -1,7 +1,7 @@
 ##**🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API**
 
-Nesta 1ª etapa do Step 2 o objetivo é aprofundar a análise dos dados pessoais que serão tratados no nosso projeto.
-Aqui serão divididas em 5 partes, quais sejam: 
+Nesta primeira etapa do Step 2, o objetivo é aprofundar a análise dos dados pessoais que serão tratados pelo nosso sistema.
+A análise está estruturada em 5 partes, quais sejam:
 
 - Classificação de dados pessoais expostos pela API;                                               
 - Mapeamento de endpoints e fluxos de dados                                               
@@ -9,21 +9,21 @@ Aqui serão divididas em 5 partes, quais sejam:
 - Matriz de correspondência RGPD -> API                                               
 - Análise de riscos regulatórios
 
-A validação técnica foi estruturada de forma progressiva para garantir coerência entre requisitos legais, comportamento da API e avaliação de risco.
+A validação técnica foi organizada de forma progressiva para garantir coerência entre requisitos legais, comportamento da API e avaliação de risco.
 
-1º Classificação dos dados pessoais expostos pela API;
+**1º Classificação dos dados pessoais expostos pela API;**
 - Define a natureza jurídica, a sensibilidade prática e o nível de risco de cada dado, estabelecendo a base para toda a análise subsequente.
 
-2º Mapeamento de endpoints e fluxos de dados;
+**2º Mapeamento de endpoints e fluxos de dados;**
 - Permite identificar onde, como e em que contexto os dados classificados são coletados, processados e expostos pelo sistema.
 
-3º Matriz de minimização de dados;
+**3º Matriz de minimização de dados;**
 - Avalia se os dados expostos em cada endpoint são estritamente necessários para a finalidade declarada, à luz do princípio da minimização do RGPD.
 
-4º Matriz de correspondência RGPD → API;
+**4º Matriz de correspondência RGPD → API;**
 - Relaciona obrigações legais específicas aos endpoints responsáveis por sua implementação técnica, garantindo rastreabilidade entre norma e sistema.
 
-5º Análise de riscos regulatórios.
+**5º Análise de riscos regulatórios.**
 - Consolida as etapas anteriores para identificar pontos críticos de exposição, falhas de conformidade e prioridades de validação orientadas a risco.
 
 
