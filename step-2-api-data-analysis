@@ -1,29 +1,91 @@
-##**🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API**
+## 🟣 Step 2 — Análise Estrutural e Validação do Fluxo de Dados via API
 
-Nesta primeira etapa do Step 2, o objetivo é aprofundar a análise dos dados pessoais que serão tratados pelo nosso sistema.
-A análise está estruturada em 5 partes, quais sejam:
+Nesta etapa do projeto, o objetivo é avaliar como dados pessoais são expostos e tratados pela API, conectando princípios do RGPD com validação técnica, priorização de testes e análise de risco.
 
-- Classificação de dados pessoais expostos pela API;                                               
-- Mapeamento de endpoints e fluxos de dados                                               
-- Matriz de minimização de dados                                                
-- Matriz de correspondência RGPD -> API                                               
-- Análise de riscos regulatórios
+A abordagem adotada reflete práticas reais de QA em ambientes de produto, onde a classificação de dados é utilizada para:
 
-A validação técnica foi organizada de forma progressiva para garantir coerência entre requisitos legais, comportamento da API e avaliação de risco.
+- orientar a priorização de testes;
+- identificar endpoints críticos;
+- reduzir o risco de exposição indevida de dados;
+- apoiar decisões técnicas baseadas em impacto.
 
-**1º Classificação dos dados pessoais expostos pela API;**
-- Define a natureza jurídica, a sensibilidade prática e o nível de risco de cada dado, estabelecendo a base para toda a análise subsequente.
+A análise foi estruturada em cinco partes interdependentes:
 
-**2º Mapeamento de endpoints e fluxos de dados;**
-- Permite identificar onde, como e em que contexto os dados classificados são coletados, processados e expostos pelo sistema.
+1. Classificação dos dados pessoais expostos pela API  
+2. Mapeamento de endpoints e fluxos de dados  
+3. Matriz de minimização de dados  
+4. Matriz de correspondência RGPD → API  
+5. Análise de riscos regulatórios e técnicos  
 
-**3º Matriz de minimização de dados;**
-- Avalia se os dados expostos em cada endpoint são estritamente necessários para a finalidade declarada, à luz do princípio da minimização do RGPD.
+Essa estrutura garante rastreabilidade entre requisitos, comportamento da API e decisões de teste, permitindo uma validação orientada a risco.
 
-**4º Matriz de correspondência RGPD → API;**
-- Relaciona obrigações legais específicas aos endpoints responsáveis por sua implementação técnica, garantindo rastreabilidade entre norma e sistema.
+---
 
-**5º Análise de riscos regulatórios.**
-- Consolida as etapas anteriores para identificar pontos críticos de exposição, falhas de conformidade e prioridades de validação orientadas a risco.
+### 1️⃣ Classificação dos dados pessoais expostos pela API
+
+#### Por que esta etapa é importante?
+
+Em sistemas reais, nem todos os dados possuem o mesmo nível de sensibilidade ou impacto.  
+A classificação prévia dos dados pessoais permite ao QA:
+
+- identificar quais informações exigem maior rigor de validação;
+- definir prioridades de teste com base em risco;
+- focar esforços em cenários com maior potencial de impacto ao usuário e ao produto;
+- orientar testes negativos, de autorização e de exposição indevida.
+
+Essa prática é comum em ambientes regulados (fintech, saúde, plataformas de usuários), onde qualidade e risco caminham juntos.
+
+---
+
+#### Critérios adotados na classificação
+
+Cada dado pessoal foi avaliado considerando:
+
+- natureza do dado (identificação, autenticação, atributo pessoal);
+- sensibilidade prática em caso de exposição;
+- nível de risco para o usuário e para o sistema;
+- prioridade de teste associada.
+
+Essa classificação servirá de base para as próximas etapas do Step 2, especialmente para:
+
+- mapeamento de endpoints;
+- análise de minimização de dados;
+- execução de testes orientados a risco.
+
+#### CLASSIFICAÇÃO:
+**Dados de Informações Básicas:**
+
+_Dado_         |   _Natureza do dado_|    _Sensibilidade_ | _Nível de Risco_ | _Prioridade de teste_
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Full_name**  |   Dados Pessoais    |       Baixa        |     Baixo        |      Baixa
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**User_id**    |   Identificação     |       Baixa        |     Baixo        |      Baixa
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Email**      |   Contato/Login     |       Média        |     Médio        |      Média
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Password**   |   Autenticação      |       Alta         |     Alto         |      Alta
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Phone_num**  |Cantato/Autenticação |      Média         |     Médio        |      Média
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Birthday**   |   Dados Pessoais    |      Baixa         |     Baixo        |      Baixo
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Profile_Pic**|   Dados Pessoais    |      Média         |     Média        |      Média
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+
+🔐 Dados de autenticação e segurança:
+
+_Dado_           |_Natureza do dado_  |  _Sensibilidade_   | _Nível de Risco_ | _Prioridade de teste_
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Password_hash**|Senha criptografada |       Alta         |      Alta        |      Alta
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Reset_Token**  |Recuperação de conta|       Alta         |      Alta        |      Alta
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Auth_Token**   | Token de Sessão    |       Média        |     Médio        |      Média
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Refresh_Token**| Gera_novo_Auth     |       Alta         |     Alto         |      Alta
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+**Last_login**   |     Acessos        |       Média        |     Médio        |      Média
+——————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
+...
